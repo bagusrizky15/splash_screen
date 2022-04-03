@@ -15,6 +15,7 @@ class FirstSplash extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
+                fit: BoxFit.cover,
                 image: AssetImage(
                   'assets/background_image.png',
                 ),

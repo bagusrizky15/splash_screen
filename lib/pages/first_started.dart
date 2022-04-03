@@ -14,7 +14,10 @@ class FirstStart extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/background_started.png'),
+                fit: BoxFit.cover,
+                image: AssetImage(
+                  'assets/background_started.png',
+                ),
               ),
             ),
           ),
@@ -43,6 +46,17 @@ class FirstStart extends StatelessWidget {
                 fontSize: 16,
               ),
               textAlign: TextAlign.center,
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+              top: 605,
+              left: 170,
+              right: 90,
+            ),
+            child: Image.asset(
+              'assets/purple_button.png',
+              width: 50,
             ),
           )
         ],
