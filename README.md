@@ -2,6 +2,6 @@
 
 <table>
   <tr> 
-    <th> <img src="splash.png" height=220/> </th>
-    <th> </th>
+    <th> <img src="splash.png" height=500/> </th>
+    <th>  <img src="started.png" height=500/> </th>
   </tr>
